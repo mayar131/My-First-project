@@ -1,0 +1,147 @@
+/*ropoto font-->*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+html,body{
+    
+    font-family: 'ropoto', sans-serif;
+    
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+.bg-dark{
+    background-color: #252A34;
+    color: #fff;
+    
+      
+}
+
+.bg-light{
+    
+    background-color: #EAEAEA;
+    color: #252A34;
+}
+
+
+.text-primary{
+    color: cadetblue;
+    
+}
+
+.text-center{
+    text-align: center;
+    
+}
+.l-headind{
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+}
+.py-1{
+    padding: 1.5rem,0;
+}
+.btn{
+    background-color: #fff;
+    padding: 0.5rem1.5rem;
+    border-radius: 5px;
+   
+}
+.btn:hover{
+    
+    background-color: aquamarine;
+}
+#showcase{
+    background-color: #252A34 ;
+    background-image: url(makeup.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    
+}
+#showcase {
+  background: #252A34 url(../makeup.jpg) no-repeat center center/cover;
+  height: 100vh;
+    color: #fff;
+
+
+
+
+
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding: 1rem;
+}
+
+
+#about .about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+#about .about-content div, 
+#about .about-content video {
+  display: flex;
+}
+
+#about .about-content video {
+  display: block;
+  width: 50%;
+  border: 5px solid #fff;
+  margin-left: 1rem;
+}
+
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 1rem;
+    margin-left: 10px;
+    
+}
+#navbar ul li a :hover {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
